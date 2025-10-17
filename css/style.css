@@ -17,7 +17,7 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
   color: var(--texto-claro);
-  background: url("/img/fundo.png") no-repeat center center fixed;
+  background: url("../img/fundo.png") center/cover no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
@@ -160,10 +160,10 @@ nav a.active {
   position: relative;
   padding: 150px 10% 100px;
   color: var(--texto-claro);
-  background: url("/img/fundo.png") no-repeat center center fixed;
+  background: url("../img/fundo.png") center/cover no-repeat;
   background-size: cover;
   overflow: hidden;
-  background: url("/img/fundo.png") no-repeat center center fixed;
+  background: url("../img/fundo.png") center/cover no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
@@ -238,7 +238,7 @@ nav a.active {
   position: relative;
   padding: 150px 10% 100px;
   color: var(--texto-claro);
-  background: url("/img/fundo.png") no-repeat center center fixed;
+  background: url("../img/fundo.png") no-repeat center center fixed;
   background-size: cover;
   flex: 1;
 }
